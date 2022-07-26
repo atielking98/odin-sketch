@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    justify-content: center;
+    margin:0px auto;
+}
+
+#menu {
+    margin: 30px;
+    text-align: center;
+}
+
+.square {
+    background-color: white;
+    outline: black solid 2.5px;
+    height: 30px;
+    width: 30px;
+}
