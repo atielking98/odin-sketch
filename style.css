@@ -7,6 +7,26 @@
     margin:0px auto;
 }
 
+body {
+    font-family: 'Comic Sans MS';
+    border: pink dotted 10px;
+    height: 100%;
+    background-image: url("dog.jpeg");
+    background-repeat: space;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    color: cornflowerblue;
+    font-size: 36px;
+    background-color: white;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
 #menu {
     margin: 30px;
     text-align: center;
@@ -17,4 +37,12 @@
     outline: black solid 2.5px;
     height: 30px;
     width: 30px;
+}
+
+button {
+    border-radius: 4px;
+    background-color: white;
+    border: 2px solid cornflowerblue;
+    font-family: 'Comic Sans MS';
+    color: cornflowerblue;
 }
